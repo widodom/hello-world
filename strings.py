@@ -1,7 +1,9 @@
 
+name = input('enter your name: ')
+age = input('enter your age: ')
 
-print('My name is %s and I am %s years old' % ('Ryan', 99))
-print('My name is {} and I am {} years old'.format('Ryan', 99))
+print('My name is %s and I am %s years old' % (name, age))
+print('My name is {} and I am {} years old'.format(name, age))
 print('My name is {name} and I am {age} years old'.format(age=99, name='Ryan'))
 
 # This last one is more fancy than most people use
